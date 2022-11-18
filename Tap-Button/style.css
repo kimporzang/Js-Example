@@ -42,7 +42,7 @@ ul.tab-list::after{    /*리스트 다음에*/
     display: block; 
 }
 
-.click{
+.click-add{
     border-top: 2px solid rgb(0, 89, 255);
     border-right: 1px solid #ccc;
     border-bottom: 1px solid white;
