@@ -1,0 +1,40 @@
+ul.tab-list{
+    list-style-type: none; /* 리스트 점 제거 */
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.tab-list::after{    /*리스트 다음에*/
+    content: '';
+    display: block; /*블록 요소를 추가하고*/
+    clear: both;
+
+    /*부모 공간에
+    요소들이 따라올라오지 않도록
+    보이지 않는 블록을 만든다.
+    */
+}
+
+.tab-button{
+    display: block;  /*list 아이템을 block요소로 전환한다.*/
+    padding: 10px 20px 10px 20px; /*공간을 띄어준다.*/
+    float: left; /*div를 왼쪽으로 정렬해라.*/
+    /*
+    float은 공간을 밀어내고 그 공간위에 뜨게 한다. 
+    그렇기 때문에 가상요소를 만들어서 뒤에 요소들을 밀어내준것이다.
+    div와 차이점은 div는 위에 띄어지는 것이고 float은 옆으로 띄어준다.
+    */
+    margin-right: -1px;
+    margin-left: -1px;
+
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;  /*마우스 올리면 포인터 작동*/
+}
+
+.tab-content{
+    display: none;  /*요소 숨기기*/
+    padding: 10px;  /*여백 10px*/
+}
+
