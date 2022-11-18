@@ -16,7 +16,7 @@ ul.tab-list::after{    /*리스트 다음에*/
     */
 }
 
-.tab-button{
+.tab-list__button{
     display: block;  /*list 아이템을 block요소로 전환한다.*/
     padding: 10px 20px 10px 20px; /*공간을 띄어준다.*/
     float: left; /*div를 왼쪽으로 정렬해라.*/
@@ -33,8 +33,22 @@ ul.tab-list::after{    /*리스트 다음에*/
     cursor: pointer;  /*마우스 올리면 포인터 작동*/
 }
 
-.tab-content{
+.tab-list__content{
     display: none;  /*요소 숨기기*/
     padding: 10px;  /*여백 10px*/
+}
+
+.show{
+    display: block; 
+}
+
+.click{
+    border-top: 2px solid rgb(0, 89, 255);
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid white;
+    border-left: 1px solid #ccc;
+
+    color: black;
+    margin-bottom: -1px;
 }
 
