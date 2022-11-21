@@ -1,0 +1,19 @@
+.quiz-container{
+    width: 100vw;
+    height: 900px;
+    position: relative;
+  }
+  
+.quiz-box{
+    background : #FEFEFE;
+    width: 500px;
+    height: 600px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px -7px rgba(156,181,211,5);
+
+    text-align: center;  /* 가운데로 옮기기 */
+    position: absolute;
+    left: 50%;  
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
