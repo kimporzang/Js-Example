@@ -86,6 +86,8 @@
 } 
 
 
+
+
 .quiz-box__button{
      background: #5F65FF;  
      width: 442px;
@@ -98,3 +100,34 @@
 }
 
   
+
+/*클래스 부착용*/
+
+
+.show{
+    display: block;
+   }
+
+
+
+.click{
+    border-Color: #5F65FF;
+    background-Color: #F2F3FF;    
+    color: #5F65FF;  
+}
+
+.click2{
+    background-Color: #5F65FF;   
+    color: #FFFFFF;  
+}
+
+
+.hover{
+    border-Color: #5F65FF;
+    color: #5F65FF;
+}
+
+.hover2{
+    background-Color: #5F65FF;   
+    color: #FFFFFF;  
+}
